@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Order | Bite Baron</title>
+  <meta name="description" content="Order from Bite Baron or get in touch. Place your order, ask about catering, or send us any inquiry. Karachi's premium fast food." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700;900&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">BITE<span>BARON</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="packages.html">Deals</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Order Now</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li>
+      <li><a href="packages.html">Deals</a></li><li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="mob-cta">Order Now</a></li>
+    </ul>
+  </div>
+
+  <section class="page-hero">
+    <div class="container reveal">
+      <div class="section-label">Get In Touch</div>
+      <h1 class="page-hero-title">Order & <span>Contact</span></h1>
+      <p class="page-hero-sub">Place an order, ask about catering, or just say hi. We're always here.</p>
+    </div>
+  </section>
+
+  <section class="section-pad">
+    <div class="container contact-grid">
+
+      <!-- FORM -->
+      <div class="contact-form reveal-left">
+        <div class="section-label" style="margin-bottom:8px">Send Us a Message</div>
+        <h2 class="section-title" style="font-size:36px;margin-bottom:32px">Place Your <span>Order</span></h2>
+        <form id="contactForm">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+            <div class="form-group">
+              <label for="fname">Your Name</label>
+              <input type="text" id="fname" name="name" placeholder="e.g. Ahmed Khan" required />
+            </div>
+            <div class="form-group">
+              <label for="fphone">Phone Number</label>
+              <input type="tel" id="fphone" name="phone" placeholder="0300-1234567" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address</label>
+            <input type="email" id="femail" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="ftype">Inquiry Type</label>
+            <select id="ftype" name="type">
+              <option value="order">Place an Order</option>
+              <option value="catering">Catering / Event</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Your Message / Order Details</label>
+            <textarea id="fmessage" name="message" placeholder="Tell us what you'd like to order, your delivery address, or any questions..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;font-size:17px;padding:16px">
+            👑 Send Order / Message
+          </button>
+          <p style="font-size:13px;color:rgba(255,255,255,0.4);margin-top:12px;text-align:center">
+            This will open your email app pre-filled. Or email us directly at contactglanders@gmail.com
+          </p>
+        </form>
+      </div>
+
+      <!-- INFO -->
+      <div class="reveal-right">
+        <div class="contact-info-card">
+          <h3>📍 Find Us</h3>
+          <div class="info-item">
+            <span class="info-icon">📍</span>
+            <p>Bite Baron, Karachi, Sindh, Pakistan<br>Delivery available city-wide</p>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">📧</span>
+            <p><a href="mailto:contactglanders@gmail.com" style="color:var(--crimson)">contactglanders@gmail.com</a></p>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🕐</span>
+            <p>Open Daily: 12:00 PM – 2:00 AM<br>7 days a week, including holidays</p>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">🛵</span>
+            <p>Delivery: 30–50 mins<br>Pick-up: Ready in 15 mins</p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <h3>📲 Order via WhatsApp</h3>
+          <p style="font-size:15px;color:rgba(255,255,255,0.6);margin-bottom:16px">The fastest way to order — just send us a message on WhatsApp!</p>
+          <a href="https://wa.me/923000000000" target="_blank" class="btn-primary" style="display:flex;align-items:center;gap:10px;justify-content:center">
+            <svg viewBox="0 0 24 24" fill="white" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            Order on WhatsApp
+          </a>
+        </div>
+
+        <!-- MAP -->
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231476.37957930407!2d66.99003975!3d24.8607622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1680000000000"
+            width="100%" height="220" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">BITE<span>BARON</span></div>
+        <p>Fast food that rules. Premium ingredients, bold flavors, zero compromises.</p>
+        <div class="social-links"><a href="#">📸</a><a href="#">📘</a><a href="#">🎵</a><a href="mailto:contactglanders@gmail.com">✉️</a></div>
+      </div>
+      <div class="footer-nav"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="packages.html">Deals</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-nav"><h4>Menu</h4><ul><li><a href="menu.html">Smash Burgers</a></li><li><a href="menu.html">Loaded Fries</a></li><li><a href="menu.html">Crispy Wings</a></li><li><a href="menu.html">Milkshakes</a></li></ul></div>
+      <div class="footer-contact"><h4>Contact</h4><p>📧 contactglanders@gmail.com</p><p>🕐 Daily 12 PM – 2 AM</p><p>📍 Karachi, Pakistan</p></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 Bite Baron. All rights reserved.</p></div>
+  </footer>
+  <button class="back-to-top" id="backToTop">↑</button>
+  <a href="https://wa.me/923000000000" class="whatsapp-btn" target="_blank"><svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+  <script src="script.js"></script>
+</body>
+</html>

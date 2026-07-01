@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu | Bite Baron</title>
+  <meta name="description" content="Explore the full Bite Baron menu — smash burgers, loaded fries, crispy wings, tacos, milkshakes & more. Premium fast food done right." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700;900&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">BITE<span>BARON</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="packages.html">Deals</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Order Now</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="packages.html">Deals</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="mob-cta">Order Now</a></li>
+    </ul>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container reveal">
+      <div class="section-label">What We Serve</div>
+      <h1 class="page-hero-title">The <span>Menu</span></h1>
+      <p class="page-hero-sub">Bold flavors crafted with premium ingredients. Every item designed to hit different.</p>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>🍔 BURGERS</span><span>🍟 FRIES</span><span>🍗 WINGS</span>
+      <span>🌮 TACOS</span><span>🥤 SHAKES</span><span>🍦 DESSERTS</span>
+      <span>🍔 BURGERS</span><span>🍟 FRIES</span><span>🍗 WINGS</span>
+      <span>🌮 TACOS</span><span>🥤 SHAKES</span><span>🍦 DESSERTS</span>
+    </div>
+  </div>
+
+  <!-- MENU CONTENT -->
+  <section class="section-pad">
+    <div class="container">
+
+      <!-- Category Filter -->
+      <div class="menu-categories reveal">
+        <button class="cat-btn active" data-cat="all">All</button>
+        <button class="cat-btn" data-cat="burgers">Burgers</button>
+        <button class="cat-btn" data-cat="fries">Fries</button>
+        <button class="cat-btn" data-cat="wings">Wings</button>
+        <button class="cat-btn" data-cat="tacos">Tacos</button>
+        <button class="cat-btn" data-cat="shakes">Shakes</button>
+        <button class="cat-btn" data-cat="sides">Sides</button>
+      </div>
+
+      <!-- BURGERS -->
+      <div class="menu-section" data-cat="burgers">
+        <h2 class="menu-section-title">🍔 Burgers</h2>
+        <div class="menu-full-grid">
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop" alt="The Baron Smash" />
+              <div class="card-badge">Bestseller</div>
+            </div>
+            <div class="card-body">
+              <h3>The Baron Smash</h3>
+              <p>Double smash patty, cheddar melt, baron sauce, pickles, crispy onions, toasted brioche bun</p>
+              <div class="card-footer"><span class="price">Rs. 890</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=600&auto=format&fit=crop" alt="BBQ Royale" />
+            </div>
+            <div class="card-body">
+              <h3>BBQ Royale</h3>
+              <p>Single beef patty, smoked BBQ sauce, caramelized onions, bacon, American cheese</p>
+              <div class="card-footer"><span class="price">Rs. 790</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600&auto=format&fit=crop" alt="Crispy Chicken Burger" />
+              <div class="card-badge hot">🔥 Hot</div>
+            </div>
+            <div class="card-body">
+              <h3>Crispy Crown Chicken</h3>
+              <p>Double-fried crispy chicken fillet, coleslaw, pickled jalapeños, sriracha mayo</p>
+              <div class="card-footer"><span class="price">Rs. 820</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop" alt="Mushroom Swiss" />
+            </div>
+            <div class="card-body">
+              <h3>Mushroom Swiss</h3>
+              <p>Juicy beef patty, sautéed mushrooms, swiss cheese, truffle aioli, lettuce, tomato</p>
+              <div class="card-footer"><span class="price">Rs. 870</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&auto=format&fit=crop" alt="Baron Triple Stack" />
+              <div class="card-badge">Fan Fave</div>
+            </div>
+            <div class="card-body">
+              <h3>Baron Triple Stack</h3>
+              <p>Three smash patties, triple cheese, baron sauce, pickles, raw onion, sesame bun</p>
+              <div class="card-footer"><span class="price">Rs. 1190</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1603046891744-1f310oed6?w=600&auto=format&fit=crop" alt="Veggie Royale" />
+            </div>
+            <div class="card-body">
+              <h3>Veggie Royale</h3>
+              <p>Crispy falafel patty, avocado spread, tomato, lettuce, pickled red onion, tahini sauce</p>
+              <div class="card-footer"><span class="price">Rs. 690</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FRIES -->
+      <div class="menu-section" data-cat="fries">
+        <h2 class="menu-section-title">🍟 Loaded Fries</h2>
+        <div class="menu-full-grid">
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&auto=format&fit=crop" alt="Royale Loaded Fries" />
+              <div class="card-badge">Bestseller</div>
+            </div>
+            <div class="card-body">
+              <h3>Royale Loaded Fries</h3>
+              <p>Thick-cut fries, nacho cheese, jalapeños, pulled chicken, sour cream, spring onion</p>
+              <div class="card-footer"><span class="price">Rs. 650</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&auto=format&fit=crop" alt="BBQ Pulled Fries" />
+            </div>
+            <div class="card-body">
+              <h3>BBQ Pulled Fries</h3>
+              <p>Seasoned fries topped with smoky pulled beef, BBQ drizzle, pickled onions, cheddar</p>
+              <div class="card-footer"><span class="price">Rs. 700</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&auto=format&fit=crop" alt="Plain Seasoned Fries" />
+            </div>
+            <div class="card-body">
+              <h3>Seasoned Fries</h3>
+              <p>Classic thick-cut fries with our signature baron seasoning blend and dipping sauce</p>
+              <div class="card-footer"><span class="price">Rs. 290</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WINGS -->
+      <div class="menu-section" data-cat="wings">
+        <h2 class="menu-section-title">🍗 Crispy Wings</h2>
+        <div class="menu-full-grid">
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=600&auto=format&fit=crop" alt="Honey Sriracha Wings" />
+              <div class="card-badge hot">🔥 Hot</div>
+            </div>
+            <div class="card-body">
+              <h3>Honey Sriracha Wings</h3>
+              <p>Double-fried wings tossed in sweet heat honey sriracha. 6 pcs or 12 pcs.</p>
+              <div class="card-footer"><span class="price">Rs. 750 / 1350</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=600&auto=format&fit=crop" alt="BBQ Wings" />
+            </div>
+            <div class="card-body">
+              <h3>Classic BBQ Wings</h3>
+              <p>Crispy wings slow-tossed in smoky house BBQ sauce. Served with ranch dip.</p>
+              <div class="card-footer"><span class="price">Rs. 750 / 1350</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1615361200141-f45040f367be?w=600&auto=format&fit=crop" alt="Garlic Butter Wings" />
+              <div class="card-badge">New</div>
+            </div>
+            <div class="card-body">
+              <h3>Garlic Butter Wings</h3>
+              <p>Crispy wings bathed in garlic herb butter, parmesan, parsley. Dangerously good.</p>
+              <div class="card-footer"><span class="price">Rs. 780 / 1390</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TACOS -->
+      <div class="menu-section" data-cat="tacos">
+        <h2 class="menu-section-title">🌮 Street Tacos</h2>
+        <div class="menu-full-grid">
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&auto=format&fit=crop" alt="Baron Street Tacos" />
+              <div class="card-badge">Fan Fave</div>
+            </div>
+            <div class="card-body">
+              <h3>Baron Street Tacos (x3)</h3>
+              <p>Soft corn tortillas, seasoned beef or chicken, pico, cilantro, lime crema, hot sauce</p>
+              <div class="card-footer"><span class="price">Rs. 590</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=600&auto=format&fit=crop" alt="Crispy Fish Tacos" />
+            </div>
+            <div class="card-body">
+              <h3>Crispy Fish Tacos (x2)</h3>
+              <p>Beer-battered fish, shredded cabbage, chipotle mayo, pickled red onion, lime</p>
+              <div class="card-footer"><span class="price">Rs. 550</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SHAKES -->
+      <div class="menu-section" data-cat="shakes">
+        <h2 class="menu-section-title">🥤 Royal Shakes</h2>
+        <div class="menu-full-grid">
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=600&auto=format&fit=crop" alt="Oreo Shake" />
+              <div class="card-badge">Bestseller</div>
+            </div>
+            <div class="card-body">
+              <h3>Oreo Royale Shake</h3>
+              <p>Thick creamy vanilla base blended with Oreo cookies, whipped cream, Oreo crumble</p>
+              <div class="card-footer"><span class="price">Rs. 450</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&auto=format&fit=crop" alt="Nutella Shake" />
+            </div>
+            <div class="card-body">
+              <h3>Nutella Heaven Shake</h3>
+              <p>Indulgent Nutella milkshake, banana, hazelnut cream, chocolate drizzle</p>
+              <div class="card-footer"><span class="price">Rs. 490</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=600&auto=format&fit=crop" alt="Mango Madness" />
+              <div class="card-badge hot">Summer</div>
+            </div>
+            <div class="card-body">
+              <h3>Mango Madness</h3>
+              <p>Fresh alphonso mango purée, cream, hint of cardamom. The king of shakes.</p>
+              <div class="card-footer"><span class="price">Rs. 470</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIDES -->
+      <div class="menu-section" data-cat="sides">
+        <h2 class="menu-section-title">🍱 Sides & Add-ons</h2>
+        <div class="menu-full-grid">
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&auto=format&fit=crop" alt="Coleslaw" />
+            </div>
+            <div class="card-body">
+              <h3>Creamy Coleslaw</h3>
+              <p>House-made coleslaw with a tangy creamy dressing. Perfect sidekick.</p>
+              <div class="card-footer"><span class="price">Rs. 180</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?w=600&auto=format&fit=crop" alt="Dipping Sauces" />
+            </div>
+            <div class="card-body">
+              <h3>Dipping Sauce (x3)</h3>
+              <p>Choose 3: Baron Sauce, Chipotle, Ranch, Garlic Mayo, BBQ, Honey Mustard</p>
+              <div class="card-footer"><span class="price">Rs. 120</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1534938665420-4193effeacc4?w=600&auto=format&fit=crop" alt="Soft Drinks" />
+            </div>
+            <div class="card-body">
+              <h3>Cold Drinks</h3>
+              <p>Pepsi, 7UP, Mountain Dew, Sting, Water. Always ice cold.</p>
+              <div class="card-footer"><span class="price">Rs. 100</span><a href="contact.html" class="btn-sm">Order</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="cta-bg">
+      <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=1600&auto=format&fit=crop" alt="Fast food spread" />
+      <div class="cta-overlay"></div>
+    </div>
+    <div class="cta-content reveal">
+      <h2>Can't Decide?</h2>
+      <p>Hit us up and we'll help you build the perfect order.</p>
+      <div class="cta-btns">
+        <a href="packages.html" class="btn-primary">See Combo Deals</a>
+        <a href="contact.html" class="btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">BITE<span>BARON</span></div>
+        <p>Fast food that rules. Premium ingredients, bold flavors, zero compromises.</p>
+        <div class="social-links">
+          <a href="#">📸</a><a href="#">📘</a><a href="#">🎵</a>
+          <a href="mailto:contactglanders@gmail.com">✉️</a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="packages.html">Deals</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-nav">
+        <h4>Menu Highlights</h4>
+        <ul>
+          <li><a href="#">Smash Burgers</a></li>
+          <li><a href="#">Loaded Fries</a></li>
+          <li><a href="#">Crispy Wings</a></li>
+          <li><a href="#">Milkshakes</a></li>
+          <li><a href="#">Street Tacos</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📧 contactglanders@gmail.com</p>
+        <p>🕐 Daily 12 PM – 2 AM</p>
+        <p>📍 Karachi, Pakistan</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Bite Baron. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <a href="https://wa.me/923000000000" class="whatsapp-btn" target="_blank">
+    <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+  <script src="script.js"></script>
+</body>
+</html>
